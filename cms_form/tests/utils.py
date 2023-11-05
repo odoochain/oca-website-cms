@@ -7,7 +7,7 @@ import urllib.parse
 from contextlib import contextmanager
 
 import mock
-from werkzeug.contrib.sessions import SessionStore
+from odoo.tools._vendor.sessions import SessionStore
 from werkzeug.datastructures import FileStorage
 from werkzeug.wrappers import Request
 
@@ -51,7 +51,7 @@ class FakeSessionStore(SessionStore):
         del session
 
 
-session_store = FakeSessionStore(session_class=http.OpenERPSession)
+session_store = FakeSessionStore(session_class=http.Session)
 
 
 def fake_session(env, **kw):
