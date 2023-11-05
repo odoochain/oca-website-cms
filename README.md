@@ -9,7 +9,7 @@
 
 # website-cms
 
-TODO: add repo description.
+CMS features for Odoo portal and websites. Ease creation of forms, status message, actions and more.
 
 <!-- /!\ do not modify below this line -->
 
@@ -21,14 +21,15 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[cms_info](cms_info/) | 16.0.1.1.0 |  | A set of basic information needed to expose any kind of record in your CMS.
+[cms_form](cms_form/) | 16.0.1.1.0 | [![simahawk](https://github.com/simahawk.png?size=30px)](https://github.com/simahawk) | Basic content type form
+[cms_info](cms_info/) | 16.0.1.2.0 |  | A set of basic information needed to expose any kind of record in your CMS.
+[cms_status_message](cms_status_message/) | 16.0.1.0.1 | [![simahawk](https://github.com/simahawk.png?size=30px)](https://github.com/simahawk) | Basic status messages for your CMS system
 
 
 Unported addons
 ---------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[cms_form](cms_form/) | 13.0.1.0.1 (unported) |  | Basic content type form
 [cms_form_example](cms_form_example/) | 13.0.1.0.1 (unported) |  | Basic content type form example
 
 [//]: # (end addons)
